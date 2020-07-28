@@ -5,7 +5,7 @@ module Memorable
 
    module InstanceMethods
    end
-   
+
   def reset_all
     self.all.clear
   end
