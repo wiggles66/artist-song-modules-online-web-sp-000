@@ -5,7 +5,7 @@ class Song
   attr_reader :artist
 
   extend Memorable
-  include Paramble
+
 
   @@songs = []
 
@@ -23,13 +23,7 @@ class Song
 
 
 
-#  def self.reset_all
-#    self.all.clear
-#  end
 
-#  def self.count
-#    self.all.count
-#  end
 
   def artist=(artist)
     @artist = artist
