@@ -1,13 +1,15 @@
 require_relative '../lib/concerns/memorable'
+
 module Memorable
-
-
-def self.reset_all
- self.all.clear
-end
-
-  def self.count
-    self.all.count
+  def find_by_name(name)
+    self.all.detect{|a| a.name}
   end
 
-end
+  def reset_all
+    self.all.clear
+  end
+
+  def count
+    self.all.count
+  end
+end 
