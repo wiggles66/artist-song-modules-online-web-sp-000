@@ -1,5 +1,5 @@
 require_relative '../lib/concerns/memorable'
-module Memorable
+module memorable
 
 
 def self.reset_all
