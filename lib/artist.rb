@@ -19,7 +19,7 @@ class Artist
     @@artists
   end
 
-  extend MetaDancing
+  extend memorable
 
   #def self.reset_all
   #  self.all.clear
