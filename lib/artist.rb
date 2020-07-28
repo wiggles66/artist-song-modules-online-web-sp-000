@@ -18,7 +18,7 @@ class Artist
   def self.all
     @@artists
   end
-  
+
   extend MetaDancing
 
   #def self.reset_all
